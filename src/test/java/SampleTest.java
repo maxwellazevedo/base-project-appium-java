@@ -1,5 +1,3 @@
-package test;
-
 import core.BaseTest;
 import core.DriverFactory;
 import io.appium.java_client.MobileElement;

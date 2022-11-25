@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 
 import static core.DriverFactory.getDriver;
 
-
 public class LoginScreen extends BaseScreen {
 
     public void signIn(String email, String password) {
@@ -20,5 +19,4 @@ public class LoginScreen extends BaseScreen {
         //return getDriver().findElement(By.xpath("//android.widget.Toast"));
         return getDriver().findElement(By.xpath("//android.widget.Toast")).getText();
     }
-
 }

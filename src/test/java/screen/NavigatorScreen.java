@@ -22,5 +22,4 @@ public class NavigatorScreen extends BaseScreen {
         clickByText(target);
         //getDriver().findElement(By.xpath("//*[@text='"+target+"']")).click();
     }
-
 }

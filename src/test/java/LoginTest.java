@@ -1,5 +1,3 @@
-package test;
-
 import core.BaseTest;
 import org.junit.Assert;
 import org.junit.Test;
@@ -20,7 +18,6 @@ public class LoginTest extends BaseTest {
 
         login.signIn("eu@papito.io", "qaninja");
         Assert.assertEquals("Show! Suas credenciais são validas.", login.toast());
-
     }
 
     @Test

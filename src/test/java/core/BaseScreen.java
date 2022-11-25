@@ -1,11 +1,8 @@
 package core;
 
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.TouchAction;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 
-import java.time.Duration;
 import java.util.List;
 
 import static core.DriverFactory.getDriver;
@@ -41,6 +38,4 @@ public class BaseScreen {
         List<MobileElement> elements = getDriver().findElements(By.xpath("//*[@text='" + text + "']"));
         return elements.size() > 0;
     }
-
-
 }
